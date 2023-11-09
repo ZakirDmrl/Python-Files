@@ -25,7 +25,6 @@ result = datetime.fromtimestamp(0) # default date for PC
 result = simdi - birthday # timedelta
 result = result.days
 print(simdi)
-result = result.microseconds
 result = simdi + timedelta(days=10) # mevcut zamana 10 gün daha ekler
 print(result) 
 

@@ -15,17 +15,32 @@ random_numbers = np.random.randint(10,100,6)
 pandas_series = pd.Series(random_numbers)
 pandas_series = pd.Series([20,30,40,50],['a','b','c','d'])
 result = pandas_series['a']
+print(result)
+
 result = pandas_series[['a','c']]
-result = pandas_series[:2]
-result = pandas_series[-2:]
-result = pandas_series.ndim
-result = pandas_series.shape
+print(result)
+
+
+result = pandas_series[:2] #ilk 2 
+print(result)
+result = pandas_series[-2:] #son 2
+print(result)
+result = pandas_series.ndim # kaç boyutlu ?
+print(result)
+result = pandas_series.shape # kaç (satır,sütün) ?
+print(result)
 result = pandas_series.sum()
+print(result)
 result = pandas_series.max()
+print(result)
 result = pandas_series + pandas_series
+print(result)
 result = pandas_series * 50
+print(result)
 result = np.sqrt(pandas_series)
+print(result)
 result = pandas_series >= 50
+print(result)
 result = pandas_series % 2 == 0
 print(pandas_series[result])
 print(pandas_series % 2 == 0)

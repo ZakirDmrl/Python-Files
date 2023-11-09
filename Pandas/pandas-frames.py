@@ -25,11 +25,11 @@ df = pd.DataFrame(dict_list, index = ["201","321","231","542"])
 
 print(df)
 
-pandas_Series1 = pd.Series([3,2,0,1])
-pandas_Series2 = pd.Series([0,3,7,2])
+# pandas_Series1 = pd.Series([3,2,0,1])
+# pandas_Series2 = pd.Series([0,3,7,2])
 
-data = dict(apples = pandas_Series1 , oranges = pandas_Series2)
+# data = dict(apples = pandas_Series1 , oranges = pandas_Series2)
 
-df = pd.DataFrame(data)
+# df = pd.DataFrame(data)
 
-print(df) 
+# print(df) 
